@@ -1,114 +1,148 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Spiderman</title>
-    <style>
-      h1 {
-        color: white;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 50px;
-      }
 
-      h2 {
-        color: rgb(32, 32, 209);
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 40px;
-      }
+<head>
+  <title>Spiderman</title>
+  <style>
+    h1 {
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 50px;
+    }
 
-      h3 {
-        color: rgb(32, 32, 209);
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 30px;
-        background-color: rgb(124, 12, 12, 0.9);
-      }
+    h2 {
+      color: rgb(32, 32, 209);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 40px;
+    }
 
-      hr {
-        color: red;
-      }
+    h3 {
+      color: rgb(32, 32, 209);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      background-color: rgb(124, 12, 12, 0.9);
+    }
 
-      p {
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
-      }
+    strong {
+      color: red;
+      font-size: 23px;
+    }
 
-      a {
-        color: rgb(17, 17, 100);
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: bold;
-        font-size: 15px;
-      }
+    hr {
+      color: red;
+    }
 
-      a:hover {
-        color: rgb(87, 87, 185);
-        font-size: 17px;
-      }
-    </style>
-  </head>
+    p {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+      margin: 15px;
+      margin-top: 30px;
+    }
 
-  <body
-    style="
+    a {
+      color: rgb(17, 17, 100);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    a:hover {
+      color: rgb(87, 87, 185);
+    }
+
+    .btn-flotante {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: white;
+      border-radius: 5px;
+      background-color: rgb(124, 12, 12);
+      padding: 18px 30px;
+      position: fixed;
+      bottom: 20px;
+      right: 40px;
+      transition: all 300ms ease 0ms;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      z-index: 99;
+    }
+
+    .btn-flotante:hover {
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+      transform: translateY(-7px);
+    }
+
+    .btn-flotante2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: white;
+      border-radius: 5px;
+      background-color: rgb(17, 17, 100);
+      padding: 18px 30px;
+      position: fixed;
+      bottom: 90px;
+      right: 40px;
+      transition: all 300ms ease 0ms;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      z-index: 99;
+    }
+
+    .btn-flotante:hover {
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+      transform: translateY(-7px);
+    }
+  </style>
+</head>
+
+<body style="
       background-image: url(./images/wallpaper2.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-attachment: fixed;
       text-align: center;
       align-items: center;
-    "
-  >
-    <div
-      style="
+    ">
+  <div style="
         display: flex;
         text-align: center;
         align-items: center;
         background-color: rgb(124, 12, 12, 0.9);
-      "
-    >
-      <a
-        ><img
-          src="images/spiderman-logo.png"
-          width="100px"
-          height="100px"
-          style="margin-left: 10px; margin-right: 10px"
-      /></a>
-      <h1 style="margin-left: 50px; margin-right: 50px">Spider-Man</h1>
-      <ul style="list-style-type: none; text-transform: uppercase">
-        <li style="float: left; padding: 8px">
-          <a href="index.html">Inicio</a>
-        </li>
-        <li style="float: left; padding: 8px">
-          <a href="personajes.html">Personajes </a>
-        </li>
-        <li style="float: left; padding: 8px">
-          <a href="trajes.html">Trajes </a>
-        </li>
-        <li style="float: left; padding: 8px">
-          <a href="juegos.html">Juegos </a>
-        </li>
-        <li style="float: left; padding: 8px">
-          <a href="pelis.html">Películas </a>
-        </li>
-        <li style="float: left; padding: 8px">
-          <a href="spiderman2.html">Spiderman 2 </a>
-        </li>
-        <li style="float: left; padding: 8px">
-          <a href="memes.html">Memes </a>
-        </li>
-      </ul>
-    </div>
+      ">
+    <a><img src="images/spiderman-logo.png" width="100px" height="100px"
+        style="margin-left: 10px; margin-right: 10px" /></a>
+    <h1 style="margin-left: 50px; margin-right: 50px">Spider-Man</h1>
+    <ul style="list-style-type: none; text-transform: uppercase">
+      <li style="float: left; padding: 8px">
+        <a href="index.html">Inicio</a>
+      </li>
+      <li style="float: left; padding: 8px">
+        <a href="personajes.html">Personajes </a>
+      </li>
+      <li style="float: left; padding: 8px">
+        <a href="juegos.html">Juegos </a>
+      </li>
+      <li style="float: left; padding: 8px">
+        <a href="pelis.html">Películas </a>
+      </li>
+      <li style="float: left; padding: 8px">
+        <a href="spiderman2.html">Spiderman 2 </a>
+      </li>
+      <li style="float: left; padding: 8px">
+        <a href="memes.html">Memes </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>Personajes de Spider-Man</h2>
+    <hr />
+    <a href="#villanos" class="btn-flotante">Villanos</a>
+    <a href="#heroes" class="btn-flotante2">Heroes</a>
     <div>
-      <h2>Personajes de Spider-Man</h2>
-      <hr />
-      <h3>Héroes</h3>
+      <h3 id="heroes">Héroes</h3>
       <p>
-        <a
-          ><img
-            src="images/peterparker.jpg"
-            width="40%"
-            height="40%"
-            style="float: right"
-        /></a>
-        Peter Parker es la identidad real de Spider-Man. En un principio es un
+        <a><img src="images/peterparker.jpg" width="40%" height="40%" style="float: right; margin: 20px;" /></a>
+        <strong>Peter Parker</strong> es la identidad real de Spider-Man. En un principio es un
         adolescente y estudiante en Nueva York, proviniente del distrito de
         Queens. Su vocación por la ciencia y la fotografía se ve reflejada más
         adelante cuando crece y trabaja como fotógrafo para el Daily Bugle y
@@ -137,6 +171,274 @@
         hacer una campaña de desprestigio contra el rastreador de pared en su
         periódico, el Daily Bugle.
       </p>
+      <p>
+        <hr>
+      </p>
+      <p>
+        <a><img src="images/milesmorales1.jpg" width="40%" height="40%" style="float: left; margin: 20px;" /></a>
+        <strong>Miles Morales</strong>  es un adolescente de ascendencia 
+		afroamericana y latina residente en Brooklyn; quien después de haber
+		sido mordido por una araña genéticamente modificada diseñada por el 
+		némesis de Spider-Man, Norman Osborn, asumió la identidad de Spider-Man
+		en el Universo Ultimate tras la muerte de Peter Parker. <br />
+        <br />
+		Miles es hijo de un padre afroamericano y una madre puertorriqueña. Nació y
+		se crió en Brooklyn dotado con una aptitud para la ciencia al igual que su 
+		predecesor, Peter Parker. Miles, después de haber sido galardonado con el último 
+		puesto en la Lotería para una beca en la escuela autónoma, visitó a su tío Aarón, 
+		contra los deseos de sus padres, quienes pensaban que Aaron era una mala influencia
+		para él. <br />
+
+		Mientras Miles y su tío discutían las oportunidades que la escuela podría abrir para 
+		su futuro, la araña genéticamente mejorada con la Fórmula OZ que Aaron había robado de 
+		Oscorp salió de su bolsa y mordió a Miles en la mano, lo que le hizo perder el conocimiento 
+		y convulsionar. Más tarde, cuando Miles despierta, Aaron es confrontado por Jefferson Davis 
+		el padre de Miles. Durante esta breve discusión, Miles huye del apartamento de Aaron. Mientras 
+		se ocultaba de su padre, Miles descubrió que había obtenido habilidades sobrehumanas como 
+		camuflaje, agilidad mejorada, y una especie de rayo aturdidor. <br />
+        <br />
+		El primer acto heroico de Miles como el nuevo Spider-Man fue confrontar al villano conocido 
+		como el Canguro. Después de vencerlo con su rayo venenoso y huir del lugar, Miles pensaba que el
+		traje que vestía era de mal gusto tras escuchar los comentarios hechos por los civiles durante 
+		su pelea con el villano. Mientras patrullaba en las azoteas, Miles fue atacado por Spider-Woman 
+		quien desenmascara a Miles y lo detiene para después llevarlo al Triskellion, donde Nick Fury le 
+		revela que sabe todo acerca de él y su familia, incluyendo la actividad criminal de su tío, el Prowler. 
+      </p>
+	  <p>
+		<hr>
+      </p>
+	  <p>
+        <a><img src="images/cindymoon_silk1.jpg" width="40%" height="40%" style="float: right; margin: 20px;" /></a>
+        <strong>Cindy Moon</strong> también conocida como Silk fue una adolescente
+		que acudió a la misma exhibición científica a la que asistió Peter Parker 
+		donde fue picada por la misma araña que convirtió a Peter en Spider-Man. <br />
+        <br />
+		En un experimento científico auspiciado por la Corporación General 
+		Techtro​nics que implicaba el uso de rayos radiactivos, una araña fue 
+		expuesta accidentalmente a la radiación. En sus últimos momentos de vida,
+		esta mordió el ser vivo más cercano, Peter Parker. Esto llevó a Peter a 
+		obtener poderes arácnidos y dio a luz al asombroso Spider-Man. <br />
+		Sin embargo, Peter no fue el único mordido por la araña, Cindy también fue
+		picada por el mismo arácnido. Al igual que Peter, Cindy pronto desarrollo
+		poderes arácnidos que se salieron fuera de control, lo cual preocupo a sus
+		padres. <br />
+        <br />
+		Al poco tiempo de esto ella fue contactada por Ezekiel Sims quien le advirtió sobre
+		Los Inheritors y del papel tan especial que ella jugaría en todo esto y para 
+		protegerla de Morlun, Ezekiel la encerró en una bóveda secreta, aislándola durante
+		años del resto del mundo. En los 10 años que Silk estuvo enclaustrada, ella siempre
+		tuvo conocimiento de la identidad de Spider-Man, y se volvió una gran seguidora y 
+		fanática de éste. Cuando el Ojo del Watcher explotó, Peter descubrió la existencia de
+		Cindy y en donde se encontraba. Spider-Man acudió rápidamente a liberar a Cindy de su
+		cautiverio lo cual fue percibido por Morlun y su familia dándose inicio a La Gran Cacería.
+		Tras la derrota de los Inheritors, Cindy se centró en encontrar a su familia al mismo tiempo
+		que trabajaba para Fact Channel y luchaba contra el crimen como Silk. Tras encontrar a su
+		familia y estabilizar su vida, Cindy ha formado parte de varios equipos superheroicos como
+		los Agents of Atlas y recientemente ha vuelto a trabajar como periodista en Threats and Menaces.
+      </p>
+	  <p>
+		<hr>
+      </p>
+	  <p>
+        <a><img src="images/spidergwen2.jpg" width="40%" height="40%" style="float: left; margin: 20px;" /></a>
+        <strong> Spider-Gwen </strong> también conocida como Spider-Woman, es una superheroína adolescente
+		de la dimensión de Miles Morales. Utiliza gadgets de alta tecnología para simular tener poderes 
+		arácnidos.  <br />
+        <br />
+		Originaria de la dimensión de Miles, Gwen Stacy asumió el papel de Mujer Araña después de que
+		Miles fue transportado a la dimensión de Peter Parker. Usando la tecnología robada del programa
+		de su padre y, con la ayuda, May Parker, Gwen se convirtió en un superheroína en ausencia de Miles
+		simulando poderes arácnidos a pesar de no tener poderes propios de una araña. Sin embargo, debido
+		a su actividad, también tuvo que lidiar con la persecución de su padre de vigilantes.  <br />
+        <br />
+		Cuando Miles regresa junto con Peter, Gwen les ayuda a recuperar una pieza de Siege Perilous, que 
+		estaba en la estación de policía. Gwen va a visitar a su padre para distraerlo mientras Peter y Miles 
+		recuperan la pieza. Sin embargo, esto falla cuando Lobo Araña ataca la estación y pronto toma a Rio
+		Morales como rehén en la casa de Miles. 
+      </p>
+		<hr>
+	  <p>
+        <a><img src="images/spiderman2099_1.jpg" width="40%" height="40%" style="float: right; margin: 20px;" /></a>
+        <strong> Miguel O'Hara (Tierra-928) </strong> Esta realidad presumiblemente comparte parte de 
+		la historia de la Tierra-616. Esta realidad surgió cuando las acciones de Doom borraron la 
+		anterior versión del 2099. En algún momento, los héroes tuvieron un gran enfrentamiento y el
+		Doctor Doom inició una nueva era al eliminar a la mayor parte de la comunidad superheroica. <br />
+        <br />
+		Con el paso del tiempo, corporaciones como Alchemax o D/Monix comenzaron a dominar Estados 
+		Unidos. Norman Osborn, el Green Goblin, logró sobrevivir usando su suero Goblin y a sus 
+		descendientes y creó las Black Cards, un símbolo de riqueza e influencia que colocaba a todos 
+		los que lo usaran en la cima de la población, y una organización conocida como el Cabal. Junto
+		con los Masters of Evil, Norman mató a la mayoría de los Avengers y previno que naciera una 
+		nueva Era Heroica.   <br />
+        <br />
+		En el año 2099, Doom mantuvo encadenado a Uatu e intentó usar sus habilidades para conocer 
+		las posibles amenazas hacia él, incluyendo la aparición de nuevos héroes. Sin embargo, Doom 
+		se cansó de sus desafíos y lo ejecutó. Al mismo tiempo, el científico Miguel O'Hara, que hacía
+		trabajado para Alchemax, recibió una visita de un misterioso anciano. Este hombre se presentó 
+		como una versión envejecida de él mismo y le informó sobre la Era Heroica y la anterior línea de 
+		tiempo. Motivado por las palabras de su versión mayor y el asesinato de su hermano, Miguel usó sus
+		investigaciones para obtener poderes arácnidos y asumió la identidad de Spider-Man dando inicio a 
+		una nueva Era Heroica a la que se unieron héroes como Ghost Rider o la nueva Venom. 
+      </p>
+
     </div>
-  </body>
+    <div>
+      <h3 id="villanos">Villanos</h3>
+      <p>
+        <a><img src="images/sandman_1.jpg" width="40%" height="40%" style="float: left; margin: 20px;" /></a>
+        <strong>William Baker</strong> más conocido como Flint Marko o Sandman, es un miembro
+		fundador de los Seis Siniestros y los Cuatro Terribles. Baker ha sido a la vez un aliado
+		y enemigo de Spider-Man a lo largo de los años.  <br />
+        <br />
+		William Baker nació en Queens, Nueva York. A los tres años su padre los abandono a
+		él y a su madre, una mujer humilde que se ganaba la vida como sirvienta. En estos 
+		primeros años llevó a su hijo a la playa de Coney Island. Donde William se perdió
+		felizmente en esculturas de arena, un arte que usaría en la escuela secundaria bajo
+		el estímulo de su maestra (y primer amor), la Srta. Flint. <br />
+        <br />
+        En la preparatoria, un niño llamado Vic y sus dos amigos intimidaron a William hasta
+		que este aprendió a luchar usando los movimientos del oponente contra sí mismo, una 
+		técnica que llevo a cabo como si “se deslizara entre sus dedos como arena." Vic y sus
+		amigos no representaron un reto para William, quien los derroto e incluso se hicieron 
+		amigos de Baker durante el transcurso de la escuela secundaria. En esa época William 
+		demostró ser un notable jugador de fútbol americano, pero arruinó todas sus esperanzas 
+		de hacer una carrera legítima al aceptar dinero de un corredor de apuestas que pretendía
+		que perdiera un importante partido. Baker fue descubierto haciendo trampas, apartado del
+		equipo y expulsado de la escuela. <br />
+        <br />
+		William encontró entonces trabajo a las órdenes de un jefe mafioso local y adoptó el nombre
+		de Flint Marko. En poco tiempo Marko se labró una importante reputación en los bajos fondos 
+		de la ciudad, al tiempo que alternaba infructuosos intentos de reformarse, como cuando se casó
+		con su novia, Marcy Connors. 
+      </p>
+      <p>
+        <hr>
+      </p>
+	  <p>
+        <a><img src="images/greengoblin1.jpg" width="40%" height="40%" style="float: right; margin: 20px;" /></a>
+        <strong>Norman Osborn </strong> más conocido por muchos años como Green Goblin y archienemigo
+		de Peter Parker / Spider-Man, Osborn engañó al mundo en el pensamiento de que era un héroe con
+		el disfraz de Iron Patriot y marginando a muchos héroes como cobardes. Su caída fue causada por
+		su propia locura cuando lideró un asedio en Asgard  <br />
+        <br />
+		Norman nació en Hartford, Connecticut, donde sufrió maltratos a manos de su padre, Amberson
+		Osborn durante su infancia. De hecho la empresa de su padre se había ido a la bancarrota y desde
+		entonces abusaba de la bebida y maltrataba a su familia. Una noche el padre de Norman lo encerró
+		en la vieja casa de su abuelo. El niño, que tenía miedo a los monstruos y la oscuridad empezó a 
+		llorar y golpear la puerta pensando que la casa estaba poblada por los fantasmas de sus antepasados
+		y que un terrible duende moraba en ella. Sin embargo, la experiencia le fortaleció y amaneció por 
+		la mañana tranquilo con una sonrisa maliciosa en su cara.  <br />
+        <br />
+        Norman terminó casándose con Emily Lyman. Un día mientras conversaban Norman le prometió devolver
+		el buen nombre a la familia Osborn, sin embargo Emily le dijo que ella no se había casado con él
+		por su nombre. Poco después Emily quedó embarazada de Harry, muriendo en el parto. <br />
+        <br />
+		Con la muerte de su esposa, Norman se entregó totalmente a su trabajo descuidando a su hijo Harry,
+		a quién veía como una desilusión. El principal socio de Osborn era el Profesor Stromm. Cuando éste 
+		tomo prestado dinero de la hacienda, Norman no dejó escapar la oportunidad y lo denunció a la policía
+		acusándolo de robo, por lo que Stromm fue encarcelado. 
+      </p>
+      <p>
+        <hr>
+      </p>
+	  <p>
+        <a><img src="images/electro2.jpg" width="40%" height="40%" style="float: left; margin: 20px;" /></a>
+        <strong>Electro </strong> El reparador de líneas eléctricas Maxwell Dillon fue alcanzado por un rayo
+		mientras arreglaba unos cables de alta tensión los cuales trabajaban con radioactividad, transformándolo
+		en un condensador viviente, capaz de generar y almacenar energía eléctrica. Ambicioso y oportunista,
+		Dillon se embarcó en una carrera de criminal disfrazado.  <br />
+        <br />
+		Spider-Man ha sido el rival más frecuente de Electro, derrotando al criminal una y otra vez, realizando constantemente chistes a su costa, y humillándolo frente a la multitud que observaba sus batallas. Sin
+		ser particularmente imaginativo, Electro generalmente ha utilizado sus poderes para el robo, extorsión 
+		y venganza, y ha cumplido varias sentencias de prisión por sus crímenes. Tendrá una hija, Allison, que 
+		heredará sus poderes, y que seguirá su mismo camino, con el nombre de Aftershock.
+        <br />
+		Incapaz de vencer a Spider-Man y los demás héroes de la ciudad por si solo, Dillon ha unido fuerzas 
+		con otros supervillanos de mentalidad parecida, sirviendo como miembro tanto de Los Cuatro Terribles y 
+		en varias encarnaciones de Los Seis Siniestros. Esos equipos asociaciones temporales, como mucho y 
+		generalmente se separaban debido a las peleas entre sus miembros. Dillon también ha vendido sus servicios 
+		como asesino, así como cazar a Spider-Man por dinero.
+        <br />
+		Electro continua robando y tramando, su deseo por el dinero compite únicamente con su rencor contra 
+		Spider-Man. Con cada derrota, la frustración de Dillon con su odiado enemigo ha escalado a una rabia 
+		cegadora. Electro nunca descansará hasta que sienta que ha conseguido su pleno potencial como criminal 
+		disfrazado, y para conseguirlo, Spider-Man debe morir a sus manos.
+      </p>
+      <p>
+        <hr>
+      </p>
+	  <p>
+        <a><img src="images/rhino1.jpg" width="40%" height="40%" style="float: right; margin: 20px;" /></a>
+        <strong>Rhino </strong> Tambien conocido como Alexsei Sytsevich es uno de los villanos más 
+		antiguos y emblemáticos de Spider-Man.  <br />
+        <br />
+		El Rhino nació como Aleksei Sytsevich, un pobre inmigrante de Rusia, que estaba desesperado 
+		por pagar por el resto de su familia y vino a los Estados Unidos con la esperanza de encontrar 
+		trabajo para cubrir sus necesidades. Con poca educación y sin conocimientos reales, los únicos 
+		trabajos que podía obtener era usando su impresiónate fuerza y musculatura como un matón de diversas
+		organizaciones criminales. <br />
+        <br />
+		Un día se puso en contacto con algunos agentes del bloque Este, quienes le ofrecieron una gran
+		suma de dinero por participar en un increíble experimento. Sytsevich aceptó, por lo cual fue sometido
+		a un tratamiento químico y radiactivo intensivo, que unió un polímero súper fuerte a su piel y aumentó
+		en gran medida su fuerza y velocidad. Se le dio el nombre clave de "Rhino", y fue enviado a trabajar
+		como un super-asesino. 
+      </p>
+      <p>
+        <hr>
+      </p>
+	  <p>
+        <a><img src="images/vulture1.jpg" width="40%" height="40%" style="float: left; margin: 20px;" /></a>
+        <strong>Vulture </strong> Tambien conocido como Adrian Toomes, es un ex miembro de los Seis Siniestros y
+		formo parte de los Seis Superiores comandados por el Superior Spider-Man. Adrian es uno de los más 
+		antiguos enemigos de Spider-Man y uno de los primeros villanos que el trepamuros batalló en su carrera 
+		como superhéroe. <br />
+        <br />
+		Adrian Toomes era un gran ingeniero electrónico, que en compañía de otro socio llamado Gregory Bestman
+		fundó la empresa B+T Electronics. Gregory se encargaba de la parte administrativo-comercial y Toomes de 
+		la investigación. Tiempo después, Adrian trabajaba sobre un modelo de arnés electromagnético, que permitiera
+		el vuelo a su portador, cuando se presentó en el despacho de su socio para comentarle el éxito de sus
+		investigaciones y éste no se hallaba allí. Aprovechando la ausencia, Adrian revisó los papeles, y descubrió
+		con gran sorpresa que Bestman le había estado estafando con los beneficios de la empresa. Cuando Gregory 
+		apareció, Toomes lleno de rabia lo zarandeó e incluso lo levantó en el aire, hecho que desconcertó a ambos debido
+		a la edad y constitución de Adrian. Estupefacto por su fuerza se marchó, ocasión que utilizó Bestman para 
+		expulsarlo de la empresa, ya que debido a la inocencia de Toomes, había firmado unas cláusulas en las que dejaba 
+		todo a Gregory en el momento de la constitución de la sociedad.  <br />
+        <br />
+		Adrian reunió todos sus ahorros y se retiró a un asilo abandonado en Staten Island, aunque no dejó de trabajar
+		en su arnés y logró construir un modelo portátil con alas que le capacitaba para volar, ademas de darle una 
+		fuerza y agilidad enormes. Sin Toomes, la empresa no funcionaba y Bestman se vio obligado a cerrar y subastar
+		el material. Sin embargo, cuando Adrian se enteró, planeó su venganza y decidió ir a la planta a destruir todo
+		y de este modo arruinar a su ex-socio. Entró también en el despacho con la intención de obtener documentación y
+		poderla utilizar como prueba en contra de Gregory, pero en vez de eso, tomó el dinero de la caja fuerte y huyó.
+		Toomes se percató de la facilidad con la que había llevado a cabo todo y ahí empezó su carrera criminal. Con su 
+		fuerza y capacidad de huida, nada parecía resistírsele. 
+      </p>
+      <p>
+        <hr>
+      </p>
+	  <p>
+        <a><img src="images/rhino1.jpg" width="40%" height="40%" style="float: right; margin: 20px;" /></a>
+        <strong>Rhino </strong> Tambien conocido como Alexsei Sytsevich es uno de los villanos más 
+		antiguos y emblemáticos de Spider-Man.  <br />
+        <br />
+		El Rhino nació como Aleksei Sytsevich, un pobre inmigrante de Rusia, que estaba desesperado 
+		por pagar por el resto de su familia y vino a los Estados Unidos con la esperanza de encontrar 
+		trabajo para cubrir sus necesidades. Con poca educación y sin conocimientos reales, los únicos 
+		trabajos que podía obtener era usando su impresiónate fuerza y musculatura como un matón de diversas
+		organizaciones criminales. <br />
+        <br />
+		Un día se puso en contacto con algunos agentes del bloque Este, quienes le ofrecieron una gran
+		suma de dinero por participar en un increíble experimento. Sytsevich aceptó, por lo cual fue sometido
+		a un tratamiento químico y radiactivo intensivo, que unió un polímero súper fuerte a su piel y aumentó
+		en gran medida su fuerza y velocidad. Se le dio el nombre clave de "Rhino", y fue enviado a trabajar
+		como un super-asesino. 
+      </p>
+      <p>
+        <hr>
+      </p>
+    </div>
+  </div>
+</body>
+
 </html>
