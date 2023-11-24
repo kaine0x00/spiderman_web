@@ -66,6 +66,22 @@
         font-size: 40px;
       }
 
+      input[type="email"] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        font-size: 40px;
+      }
+      
+      input[type="password"] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        font-size: 40px;
+      }
+
       input[type="number"] {
         width: 50%;
         padding: 12px 20px;
@@ -84,7 +100,7 @@
         height: 30px;
       }
 
-      input[type="submit"] {
+      .btn-flotantelinea {
         font-size: 16px;
         text-transform: uppercase;
         font-weight: bold;
@@ -92,13 +108,13 @@
         border-radius: 5px;
         background-color: rgb(124, 12, 12);
         padding: 18px 30px;
-        margin-top: 80px;
+        margin-top: 50px;
         transition: all 300ms ease 0ms;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
         z-index: 99;
       }
 
-      input[type="submit"]:hover {
+      .btn-flotantelinea:hover {
         box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
         transform: translateY(-7px);
       }
@@ -121,27 +137,6 @@
         padding: 18px 30px;
         position: fixed;
         bottom: 20px;
-        right: 40px;
-        transition: all 300ms ease 0ms;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-        z-index: 99;
-      }
-
-      .btn-flotante:hover {
-        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-        transform: translateY(-7px);
-      }
-
-      .btn-flotante2 {
-        font-size: 16px;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: white;
-        border-radius: 5px;
-        background-color: rgb(17, 17, 100);
-        padding: 18px 30px;
-        position: fixed;
-        bottom: 90px;
         right: 40px;
         transition: all 300ms ease 0ms;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -204,6 +199,7 @@
     </div>
     <div>
       <h2>Formularios Spider-Man 2</h2>
+      <div>
       <fieldset style="background-color: rgb(124, 12, 12, 0.9)">
         <legend
           style="
@@ -268,10 +264,14 @@
           <label for="terminado">Has terminado el juego?</label>
           <input type="checkbox" id="terminado" name="terminado" />
           <br />
-          <input type="submit" value="Enviar" />
+          <input class="btn-flotantelinea" type="submit" value="Enviar" />
         </form>
       </fieldset>
+      </div>
+      <br>
+      <div>
       <fieldset style="background-color: rgb(124, 12, 12, 0.9);">
+        <form>
         <legend
           id="goty"
           style="
@@ -283,8 +283,25 @@
         >
           Vota para que Spiderman 2 sea el GOTY
         </legend>
-
+          <a><img style="float: right;" src="images/SpiderMan2PS5BoxArt.jpeg"></a>
+          <label for="nombre2">Nombre: </label>
+          <input type="text" id="nombre2" name="nombre2" placeholder="Escribe to nombre...">
+          <br>
+          <label for="email">Correo electrónico: </label>
+          <input type="email" placeholder="yourname@example.com">
+          <br>
+          <label for="contrasena">Contraseña: </label>
+          <input type="password" id="contrasena" name="contrasena">
+          <br>
+          <label for="voto">Voto a Spider-Man 2&copy; como GOTY</label>
+          <input type="checkbox" id="voto" name="voto">
+          </form>
+          <br>
+          <a><img src="images/game-of-the-year-the-game-awards_w862.webp"></a>
+          <br>
+          <button class="btn-flotantelinea" onclick="alert('Gracias por votar Spiderman 2 como juego del año, eres un crack')">VOTA</button>
       </fieldset>
+      </div>
       <a href="#goty" class="btn-flotante">Vota GOTY</a>
     </div>
   </body>
